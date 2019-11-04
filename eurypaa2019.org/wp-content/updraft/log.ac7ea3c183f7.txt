@@ -1,0 +1,395 @@
+0000.000 (0) Opened log file at time: Tue, 03 Sep 2019 23:51:42 +0000 on http://www.eurypaa2019.org
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.2 PHP: 7.0.33 (cgi-fcgi, Linux dain 4.14.117-grsec-grsec+ #1 SMP Sat May 11 00:40:24 UTC 2019 x86_64) MySQL: 5.7.25-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.6M | 2M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 1965083.6 MB
+0000.006 (0) Deleting old log file: log.21fa59830df8.txt
+0000.012 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.017 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.020 (0) Set semaphore last lock (fd) time to 2019-09-03 23:51:42
+0000.021 (0) Semaphore lock (fd) complete
+0000.027 (0) Backup run: resumption=0, nonce=ac7ea3c183f7, file_nonce=ac7ea3c183f7 begun at=1567554702 (0s ago), job type=backup
+0000.030 (0) Scheduling a resumption (1) after 300 seconds (1567555002) in case this run gets aborted
+0000.070 (0) Checking if we have a zip executable available
+0000.072 (0) Testing: /usr/bin/zip
+0000.087 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.090 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.092 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.093 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.094 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.114 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.116 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.144 (0) Working binary zip found: /usr/bin/zip
+0000.148 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.149 (0) Creation of backups of directories: beginning
+0000.155 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.812 (0) Total entities for the zip file: 374 directories, 2467 files (0 skipped as non-modified), 40.7 MB
+0000.824 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.835 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.847 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.857 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.869 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.870 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.4 MB, 2467 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.044 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: size is now: 3.30 MB
+0002.059 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 600 files added (on-disk size: 3409.9 KB)
+0002.072 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 700 files added (on-disk size: 3409.9 KB)
+0002.082 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 800 files added (on-disk size: 3409.9 KB)
+0002.092 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 900 files added (on-disk size: 3409.9 KB)
+0002.101 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 1000 files added (on-disk size: 3409.9 KB)
+0002.102 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 MB, 2467 files batched, 501 (1002) added so far); re-opening (prior size: 3409.9 KB)
+0002.649 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: size is now: 5.00 MB
+0002.662 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 1100 files added (on-disk size: 5160.5 KB)
+0002.672 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 1200 files added (on-disk size: 5160.5 KB)
+0002.683 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 1300 files added (on-disk size: 5160.5 KB)
+0002.694 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 1400 files added (on-disk size: 5160.5 KB)
+0002.705 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 1500 files added (on-disk size: 5160.5 KB)
+0002.707 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.7 MB, 2467 files batched, 501 (1503) added so far); re-opening (prior size: 5160.5 KB)
+0005.245 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: size is now: 9.30 MB
+0005.259 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 1600 files added (on-disk size: 9503.2 KB)
+0005.271 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 1700 files added (on-disk size: 9503.2 KB)
+0005.283 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 1800 files added (on-disk size: 9503.2 KB)
+0005.294 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 1900 files added (on-disk size: 9503.2 KB)
+0005.305 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 2000 files added (on-disk size: 9503.2 KB)
+0005.306 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 2467 files batched, 501 (2004) added so far); re-opening (prior size: 9503.2 KB)
+0006.029 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 2100 files added (on-disk size: 10433.9 KB)
+0006.040 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 2200 files added (on-disk size: 10433.9 KB)
+0006.050 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 2300 files added (on-disk size: 10433.9 KB)
+0006.060 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: 2400 files added (on-disk size: 10433.9 KB)
+0007.731 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip.tmp: size is now: 14.10 MB
+0008.226 (0) Created plugins zip (0) - 14477.1 KB in 8.1 s (1794.9 KB/s) (sha1: f33aad70fee72944677a06cdbd509ffeba82fac9, sha256: b7ec6de9547fb42a7704adc07f8c469220526dfb9da4622321913339d4f2a416)
+0008.237 (0) Beginning creation of dump of themes (split every: 400 MB)
+0008.495 (0) Total entities for the zip file: 130 directories, 1309 files (0 skipped as non-modified), 17.3 MB
+0008.506 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.522 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.539 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0008.551 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0008.575 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0008.578 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 MB, 1309 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0009.541 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: size is now: 4.80 MB
+0009.555 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: 600 files added (on-disk size: 4907.9 KB)
+0009.565 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: 700 files added (on-disk size: 4907.9 KB)
+0009.574 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: 800 files added (on-disk size: 4907.9 KB)
+0009.583 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: 900 files added (on-disk size: 4907.9 KB)
+0009.593 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: 1000 files added (on-disk size: 4907.9 KB)
+0009.595 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 1309 files batched, 501 (1002) added so far); re-opening (prior size: 4907.9 KB)
+0010.359 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: size is now: 8.90 MB
+0010.374 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: 1100 files added (on-disk size: 9091.7 KB)
+0010.385 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: 1200 files added (on-disk size: 9091.7 KB)
+0010.396 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: 1300 files added (on-disk size: 9091.7 KB)
+0010.943 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip.tmp: size is now: 12.20 MB
+0011.437 (0) Created themes zip (0) - 12465.1 KB in 3.2 s (3901.1 KB/s) (sha1: 0d92a51c932ab6fe614613d05fe31f7d2f3f62c6, sha256: 3f4fbafe0440b265c6634209eef404b376efd6b291f3ec612b0615678d4bbc11)
+0011.447 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0011.449 (0) Looking for candidates to backup in: /home/dh_jr8xp4/eurypaa2019.org/wp-content/uploads
+0011.450 (0) finding files: 2018: adding to list (1)
+0011.452 (0) finding files: 2019: adding to list (2)
+0011.454 (0) finding files: .htaccess: adding to list (3)
+0011.466 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0011.529 (0) Total entities for the zip file: 15 directories, 232 files (0 skipped as non-modified), 110.7 MB
+0011.540 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.543 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 232 files batched, 117 (117) added so far); re-opening (prior size: 0 KB)
+0012.114 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-uploads.zip.tmp: size is now: 25.30 MB
+0012.118 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.5 s, rate: 16862.2 KB/s)
+0012.122 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.5320150852203, normalised_time=1.5181904043869, max_time=12.119661092758, data points known=1, old_max_bytes=26214400, new_max_bytes=125561185)
+0012.134 (0) Zip: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-uploads.zip.tmp: 200 files added (on-disk size: 25860.2 KB)
+0013.854 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-uploads.zip.tmp: size is now: 110.70 MB
+0017.873 (0) Created uploads zip (0) - 113389.6 KB in 6.4 s (17714.6 KB/s) (sha1: 2df8af99d8edafe6208a712b50d1531ee2b0722e, sha256: 379082af7975a66eb8c62bda313f656acc16092737292f022a8813a99ef5ed79)
+0017.887 (0) Beginning backup of other directories found in the content directory (index: 0)
+0017.889 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0017.890 (0) Looking for candidates to backup in: /home/dh_jr8xp4/eurypaa2019.org/wp-content
+0017.892 (0) finding files: themes: skipping: this is the themes directory
+0017.893 (0) finding files: plugins: skipping: this is the plugins directory
+0017.895 (0) finding files: uploads: skipping: this is the uploads directory
+0017.896 (0) finding files: cache: skipping: excluded by options
+0017.897 (0) finding files: upgrade: skipping: excluded by options
+0017.898 (0) finding files: updraft: skipping: this is the updraft directory
+0017.899 (0) finding files: index.php: adding to list (1)
+0017.900 (0) finding files: wp-cache-config.php: adding to list (2)
+0017.902 (0) finding files: advanced-cache.php: adding to list (3)
+0017.903 (0) finding files: languages: adding to list (4)
+0017.919 (0) Total entities for the zip file: 3 directories, 82 files (0 skipped as non-modified), 4 MB
+0018.642 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-others.zip.tmp: size is now: 1.20 MB
+0018.702 (0) Created others zip (0) - 1240.8 KB in 0.8 s (1564.1 KB/s) (sha1: 731be2e5309fbe72f8aa922864d3d995d7e03383, sha256: ac52fb2e837c82c6ae0fa6a0b7b675000d3af973d6163d5d64b5817d275aa1be)
+0018.716 (0) Saving backup status to database (elements: 8)
+0018.724 (0) Beginning creation of database dump (WordPress DB)
+0018.728 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0019.202 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_sh6djroptions`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 * (truncated - 1242 bytes total)
+0019.208 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0019.227 (0) Table wp_sh6djroptions: Total expected rows (approximate): 256
+0019.420 (0) Table wp_sh6djroptions: Total rows added: 259 in 0.19 seconds
+0019.423 (0) Table wp_sh6djroptions: finishing file (backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djroptions.table.gz - 302.1 KB)
+0019.431 (0) Table wp_sh6djrusers: Total expected rows (approximate): 0
+0019.435 (0) Table wp_sh6djrusers: Total rows added: 1 in 0.00 seconds
+0019.436 (0) Table wp_sh6djrusers: finishing file (backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrusers.table.gz - 0.6 KB)
+0019.441 (0) Table wp_sh6djrusermeta: Total expected rows (approximate): 30
+0019.445 (0) Table wp_sh6djrusermeta: Total rows added: 31 in 0.00 seconds
+0019.447 (0) Table wp_sh6djrusermeta: finishing file (backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrusermeta.table.gz - 1.5 KB)
+0019.452 (0) Table wp_sh6djrcommentmeta: Total expected rows (approximate): 0
+0019.455 (0) Table wp_sh6djrcommentmeta: Total rows added: 0 in 0.00 seconds
+0019.457 (0) Table wp_sh6djrcommentmeta: finishing file (backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrcommentmeta.table.gz - 0.4 KB)
+0019.462 (0) Table wp_sh6djrcomments: Total expected rows (approximate): 0
+0019.466 (0) Table wp_sh6djrcomments: Total rows added: 2 in 0.00 seconds
+0019.468 (0) Table wp_sh6djrcomments: finishing file (backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrcomments.table.gz - 1.2 KB)
+0019.474 (0) Table wp_sh6djrlinks: Total expected rows (approximate): 0
+0019.481 (0) Table wp_sh6djrlinks: Total rows added: 0 in 0.00 seconds
+0019.482 (0) Table wp_sh6djrlinks: finishing file (backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrlinks.table.gz - 0.5 KB)
+0019.487 (0) Table wp_sh6djrpostmeta: Total expected rows (approximate): 248
+0019.497 (0) Table wp_sh6djrpostmeta: Total rows added: 271 in 0.01 seconds
+0019.500 (0) Table wp_sh6djrpostmeta: finishing file (backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrpostmeta.table.gz - 7 KB)
+0019.506 (0) Table wp_sh6djrposts: Total expected rows (approximate): 115
+0019.530 (0) Table wp_sh6djrposts: Total rows added: 135 in 0.02 seconds
+0019.533 (0) Table wp_sh6djrposts: finishing file (backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrposts.table.gz - 22 KB)
+0019.541 (0) Table wp_sh6djrterm_relationships: Total expected rows (approximate): 70
+0019.544 (0) Table wp_sh6djrterm_relationships: Total rows added: 81 in 0.00 seconds
+0019.546 (0) Table wp_sh6djrterm_relationships: finishing file (backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrterm_relationships.table.gz - 0.6 KB)
+0019.553 (0) Table wp_sh6djrterm_taxonomy: Total expected rows (approximate): 12
+0019.556 (0) Table wp_sh6djrterm_taxonomy: Total rows added: 15 in 0.00 seconds
+0019.558 (0) Table wp_sh6djrterm_taxonomy: finishing file (backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrterm_taxonomy.table.gz - 0.7 KB)
+0019.567 (0) Table wp_sh6djrtermmeta: Total expected rows (approximate): 0
+0019.573 (0) Table wp_sh6djrtermmeta: Total rows added: 0 in 0.01 seconds
+0019.575 (0) Table wp_sh6djrtermmeta: finishing file (backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrtermmeta.table.gz - 0.4 KB)
+0019.590 (0) Table wp_sh6djrterms: Total expected rows (approximate): 14
+0019.593 (0) Table wp_sh6djrterms: Total rows added: 15 in 0.00 seconds
+0019.595 (0) Table wp_sh6djrterms: finishing file (backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrterms.table.gz - 0.6 KB)
+0019.602 (0) Table wp_sh6djrycd_subscribers: Total expected rows (approximate): 0
+0019.607 (0) Table wp_sh6djrycd_subscribers: Total rows added: 0 in 0.00 seconds
+0019.609 (0) Table wp_sh6djrycd_subscribers: finishing file (backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrycd_subscribers.table.gz - 0.3 KB)
+0019.614 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djroptions.table.gz (1/13): adding to final database dump
+0019.789 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrusers.table.gz (2/13): adding to final database dump
+0019.791 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrusermeta.table.gz (3/13): adding to final database dump
+0019.793 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrcommentmeta.table.gz (4/13): adding to final database dump
+0019.794 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrcomments.table.gz (5/13): adding to final database dump
+0019.796 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrlinks.table.gz (6/13): adding to final database dump
+0019.798 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrpostmeta.table.gz (7/13): adding to final database dump
+0019.803 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrposts.table.gz (8/13): adding to final database dump
+0019.820 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrterm_relationships.table.gz (9/13): adding to final database dump
+0019.822 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrterm_taxonomy.table.gz (10/13): adding to final database dump
+0019.823 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrtermmeta.table.gz (11/13): adding to final database dump
+0019.825 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrterms.table.gz (12/13): adding to final database dump
+0019.827 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db-table-wp_sh6djrycd_subscribers.table.gz (13/13): adding to final database dump
+0019.830 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db.gz: finished writing out complete database file (312 KB)
+0019.851 (0) Total database tables backed up: 13 (backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db.gz, size: 342847, sha256)
+0019.863 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0019.864 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0019.865 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0019.867 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-others.zip: others: This file has not yet been successfully uploaded: will queue
+0019.868 (0) backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0019.870 (0) Saving backup history. Total backup size: 138.6 MB
+0019.875 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0019.880 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0019.882 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-57b77978962fe915043993dab58a5d67)
+0022.106 (0) Google Drive: quota usage: used=6379.8 MB, total=15360 MB, available=8980.2 MB
+0022.108 (0) Google Drive: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip: Attempting to upload to Google Drive (into folder id: 1D0YDUb5ylbTeXxDrd13osQYSGIlXYDuK)
+0022.529 (0) Googledrive chunked upload: 7.1 % uploaded (1048576)
+0022.771 (0) Googledrive chunked upload: 14.1 % uploaded (2097152)
+0022.952 (0) Googledrive chunked upload: 21.2 % uploaded (3145728)
+0023.159 (0) Googledrive chunked upload: 28.3 % uploaded (4194304)
+0023.400 (0) Googledrive chunked upload: 35.4 % uploaded (5242880)
+0023.610 (0) Googledrive chunked upload: 42.4 % uploaded (6291456)
+0023.830 (0) Googledrive chunked upload: 49.5 % uploaded (7340032)
+0023.998 (0) Googledrive chunked upload: 56.6 % uploaded (8388608)
+0024.246 (0) Googledrive chunked upload: 63.7 % uploaded (9437184)
+0024.468 (0) Googledrive chunked upload: 70.7 % uploaded (10485760)
+0024.694 (0) Googledrive chunked upload: 77.8 % uploaded (11534336)
+0024.962 (0) Googledrive chunked upload: 84.9 % uploaded (12582912)
+0025.150 (0) Googledrive chunked upload: 92 % uploaded (13631488)
+0025.361 (0) Googledrive chunked upload: 99 % uploaded (14680064)
+0026.614 (0) Googledrive chunked upload: 100 % uploaded (14680064)
+0026.618 (0) Google Drive: OK: Archive backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip uploaded in 4.51 seconds
+0026.619 (0) Recording as successfully uploaded: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip
+0026.639 (0) Deleting local file: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-plugins.zip: OK
+0026.820 (0) Google Drive: quota usage: used=6379.8 MB, total=15360 MB, available=8980.2 MB
+0026.821 (0) Google Drive: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip: Attempting to upload to Google Drive (into folder id: 1D0YDUb5ylbTeXxDrd13osQYSGIlXYDuK)
+0027.267 (0) Googledrive chunked upload: 8.2 % uploaded (1048576)
+0027.448 (0) Googledrive chunked upload: 16.4 % uploaded (2097152)
+0027.638 (0) Googledrive chunked upload: 24.6 % uploaded (3145728)
+0027.852 (0) Googledrive chunked upload: 32.9 % uploaded (4194304)
+0028.071 (0) Googledrive chunked upload: 41.1 % uploaded (5242880)
+0028.254 (0) Googledrive chunked upload: 49.3 % uploaded (6291456)
+0028.425 (0) Googledrive chunked upload: 57.5 % uploaded (7340032)
+0028.635 (0) Googledrive chunked upload: 65.7 % uploaded (8388608)
+0028.842 (0) Googledrive chunked upload: 73.9 % uploaded (9437184)
+0029.060 (0) Googledrive chunked upload: 82.1 % uploaded (10485760)
+0029.256 (0) Googledrive chunked upload: 90.4 % uploaded (11534336)
+0029.443 (0) Googledrive chunked upload: 98.6 % uploaded (12582912)
+0030.280 (0) Googledrive chunked upload: 100 % uploaded (12582912)
+0030.291 (0) Google Drive: OK: Archive backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip uploaded in 3.47 seconds
+0030.292 (0) Recording as successfully uploaded: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip
+0030.311 (0) Deleting local file: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-themes.zip: OK
+0030.465 (0) Google Drive: quota usage: used=6393.9 MB, total=15360 MB, available=8966.1 MB
+0030.470 (0) Google Drive: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-uploads.zip: Attempting to upload to Google Drive (into folder id: 1D0YDUb5ylbTeXxDrd13osQYSGIlXYDuK)
+0030.957 (0) Googledrive chunked upload: 0.9 % uploaded (1048576)
+0031.130 (0) Googledrive chunked upload: 1.8 % uploaded (2097152)
+0031.335 (0) Googledrive chunked upload: 2.7 % uploaded (3145728)
+0031.531 (0) Googledrive chunked upload: 3.6 % uploaded (4194304)
+0031.755 (0) Googledrive chunked upload: 4.5 % uploaded (5242880)
+0031.950 (0) Googledrive chunked upload: 5.4 % uploaded (6291456)
+0032.162 (0) Googledrive chunked upload: 6.3 % uploaded (7340032)
+0032.420 (0) Googledrive chunked upload: 7.2 % uploaded (8388608)
+0032.614 (0) Googledrive chunked upload: 8.1 % uploaded (9437184)
+0032.852 (0) Googledrive chunked upload: 9 % uploaded (10485760)
+0033.049 (0) Googledrive chunked upload: 9.9 % uploaded (11534336)
+0033.239 (0) Googledrive chunked upload: 10.8 % uploaded (12582912)
+0033.637 (0) Googledrive chunked upload: 11.7 % uploaded (13631488)
+0033.838 (0) Googledrive chunked upload: 12.6 % uploaded (14680064)
+0034.046 (0) Googledrive chunked upload: 13.5 % uploaded (15728640)
+0034.224 (0) Googledrive chunked upload: 14.4 % uploaded (16777216)
+0034.471 (0) Googledrive chunked upload: 15.4 % uploaded (17825792)
+0034.655 (0) Googledrive chunked upload: 16.3 % uploaded (18874368)
+0034.840 (0) Googledrive chunked upload: 17.2 % uploaded (19922944)
+0035.031 (0) Googledrive chunked upload: 18.1 % uploaded (20971520)
+0035.219 (0) Googledrive chunked upload: 19 % uploaded (22020096)
+0035.419 (0) Googledrive chunked upload: 19.9 % uploaded (23068672)
+0035.626 (0) Googledrive chunked upload: 20.8 % uploaded (24117248)
+0035.814 (0) Googledrive chunked upload: 21.7 % uploaded (25165824)
+0036.016 (0) Googledrive chunked upload: 22.6 % uploaded (26214400)
+0036.187 (0) Googledrive chunked upload: 23.5 % uploaded (27262976)
+0036.366 (0) Googledrive chunked upload: 24.4 % uploaded (28311552)
+0036.633 (0) Googledrive chunked upload: 25.3 % uploaded (29360128)
+0036.828 (0) Googledrive chunked upload: 26.2 % uploaded (30408704)
+0037.000 (0) Googledrive chunked upload: 27.1 % uploaded (31457280)
+0037.191 (0) Googledrive chunked upload: 28 % uploaded (32505856)
+0037.398 (0) Googledrive chunked upload: 28.9 % uploaded (33554432)
+0037.577 (0) Googledrive chunked upload: 29.8 % uploaded (34603008)
+0037.748 (0) Googledrive chunked upload: 30.7 % uploaded (35651584)
+0037.947 (0) Googledrive chunked upload: 31.6 % uploaded (36700160)
+0038.137 (0) Googledrive chunked upload: 32.5 % uploaded (37748736)
+0038.329 (0) Googledrive chunked upload: 33.4 % uploaded (38797312)
+0038.529 (0) Googledrive chunked upload: 34.3 % uploaded (39845888)
+0038.749 (0) Googledrive chunked upload: 35.2 % uploaded (40894464)
+0038.943 (0) Googledrive chunked upload: 36.1 % uploaded (41943040)
+0039.149 (0) Googledrive chunked upload: 37 % uploaded (42991616)
+0039.351 (0) Googledrive chunked upload: 37.9 % uploaded (44040192)
+0039.555 (0) Googledrive chunked upload: 38.8 % uploaded (45088768)
+0039.736 (0) Googledrive chunked upload: 39.7 % uploaded (46137344)
+0039.904 (0) Googledrive chunked upload: 40.6 % uploaded (47185920)
+0040.106 (0) Googledrive chunked upload: 41.5 % uploaded (48234496)
+0040.303 (0) Googledrive chunked upload: 42.4 % uploaded (49283072)
+0040.490 (0) Googledrive chunked upload: 43.3 % uploaded (50331648)
+0040.700 (0) Googledrive chunked upload: 44.3 % uploaded (51380224)
+0040.886 (0) Googledrive chunked upload: 45.2 % uploaded (52428800)
+0041.077 (0) Googledrive chunked upload: 46.1 % uploaded (53477376)
+0041.298 (0) Googledrive chunked upload: 47 % uploaded (54525952)
+0041.511 (0) Googledrive chunked upload: 47.9 % uploaded (55574528)
+0041.688 (0) Googledrive chunked upload: 48.8 % uploaded (56623104)
+0041.859 (0) Googledrive chunked upload: 49.7 % uploaded (57671680)
+0042.060 (0) Googledrive chunked upload: 50.6 % uploaded (58720256)
+0042.245 (0) Googledrive chunked upload: 51.5 % uploaded (59768832)
+0042.430 (0) Googledrive chunked upload: 52.4 % uploaded (60817408)
+0042.646 (0) Googledrive chunked upload: 53.3 % uploaded (61865984)
+0042.859 (0) Googledrive chunked upload: 54.2 % uploaded (62914560)
+0043.116 (0) Googledrive chunked upload: 55.1 % uploaded (63963136)
+0043.302 (0) Googledrive chunked upload: 56 % uploaded (65011712)
+0043.628 (0) Googledrive chunked upload: 56.9 % uploaded (66060288)
+0043.928 (0) Googledrive chunked upload: 57.8 % uploaded (67108864)
+0044.112 (0) Googledrive chunked upload: 58.7 % uploaded (68157440)
+0044.322 (0) Googledrive chunked upload: 59.6 % uploaded (69206016)
+0044.498 (0) Googledrive chunked upload: 60.5 % uploaded (70254592)
+0044.692 (0) Googledrive chunked upload: 61.4 % uploaded (71303168)
+0044.889 (0) Googledrive chunked upload: 62.3 % uploaded (72351744)
+0045.070 (0) Googledrive chunked upload: 63.2 % uploaded (73400320)
+0045.278 (0) Googledrive chunked upload: 64.1 % uploaded (74448896)
+0045.464 (0) Googledrive chunked upload: 65 % uploaded (75497472)
+0045.652 (0) Googledrive chunked upload: 65.9 % uploaded (76546048)
+0045.866 (0) Googledrive chunked upload: 66.8 % uploaded (77594624)
+0046.056 (0) Googledrive chunked upload: 67.7 % uploaded (78643200)
+0046.228 (0) Googledrive chunked upload: 68.6 % uploaded (79691776)
+0046.434 (0) Googledrive chunked upload: 69.5 % uploaded (80740352)
+0046.609 (0) Googledrive chunked upload: 70.4 % uploaded (81788928)
+0046.817 (0) Googledrive chunked upload: 71.3 % uploaded (82837504)
+0047.006 (0) Googledrive chunked upload: 72.2 % uploaded (83886080)
+0047.192 (0) Googledrive chunked upload: 73.1 % uploaded (84934656)
+0047.377 (0) Googledrive chunked upload: 74.1 % uploaded (85983232)
+0047.572 (0) Googledrive chunked upload: 75 % uploaded (87031808)
+0047.767 (0) Googledrive chunked upload: 75.9 % uploaded (88080384)
+0047.966 (0) Googledrive chunked upload: 76.8 % uploaded (89128960)
+0048.154 (0) Googledrive chunked upload: 77.7 % uploaded (90177536)
+0048.348 (0) Googledrive chunked upload: 78.6 % uploaded (91226112)
+0048.530 (0) Googledrive chunked upload: 79.5 % uploaded (92274688)
+0048.716 (0) Googledrive chunked upload: 80.4 % uploaded (93323264)
+0048.902 (0) Googledrive chunked upload: 81.3 % uploaded (94371840)
+0049.088 (0) Googledrive chunked upload: 82.2 % uploaded (95420416)
+0049.271 (0) Googledrive chunked upload: 83.1 % uploaded (96468992)
+0049.486 (0) Googledrive chunked upload: 84 % uploaded (97517568)
+0049.694 (0) Googledrive chunked upload: 84.9 % uploaded (98566144)
+0049.876 (0) Googledrive chunked upload: 85.8 % uploaded (99614720)
+0050.063 (0) Googledrive chunked upload: 86.7 % uploaded (100663296)
+0050.226 (0) Googledrive chunked upload: 87.6 % uploaded (101711872)
+0050.426 (0) Googledrive chunked upload: 88.5 % uploaded (102760448)
+0050.610 (0) Googledrive chunked upload: 89.4 % uploaded (103809024)
+0051.003 (0) Googledrive chunked upload: 90.3 % uploaded (104857600)
+0051.180 (0) Googledrive chunked upload: 91.2 % uploaded (105906176)
+0051.398 (0) Googledrive chunked upload: 92.1 % uploaded (106954752)
+0051.804 (0) Googledrive chunked upload: 93 % uploaded (108003328)
+0052.004 (0) Googledrive chunked upload: 93.9 % uploaded (109051904)
+0052.200 (0) Googledrive chunked upload: 94.8 % uploaded (110100480)
+0052.381 (0) Googledrive chunked upload: 95.7 % uploaded (111149056)
+0052.570 (0) Googledrive chunked upload: 96.6 % uploaded (112197632)
+0052.763 (0) Googledrive chunked upload: 97.5 % uploaded (113246208)
+0052.936 (0) Googledrive chunked upload: 98.4 % uploaded (114294784)
+0053.132 (0) Googledrive chunked upload: 99.3 % uploaded (115343360)
+0054.154 (0) Googledrive chunked upload: 100 % uploaded (115343360)
+0054.159 (0) Google Drive: OK: Archive backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-uploads.zip uploaded in 23.69 seconds
+0054.161 (0) Recording as successfully uploaded: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-uploads.zip
+0054.298 (0) Deleting local file: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-uploads.zip: OK
+0054.580 (0) Google Drive: quota usage: used=6516.8 MB, total=15360 MB, available=8843.2 MB
+0054.582 (0) Google Drive: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-others.zip: Attempting to upload to Google Drive (into folder id: 1D0YDUb5ylbTeXxDrd13osQYSGIlXYDuK)
+0054.944 (0) Googledrive chunked upload: 82.5 % uploaded (1048576)
+0055.641 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0055.646 (0) Google Drive: OK: Archive backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-others.zip uploaded in 1.06 seconds
+0055.647 (0) Recording as successfully uploaded: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-others.zip
+0055.652 (0) Deleting local file: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-others.zip: OK
+0055.795 (0) Google Drive: quota usage: used=6516.8 MB, total=15360 MB, available=8843.2 MB
+0055.797 (0) Google Drive: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db.gz: Attempting to upload to Google Drive (into folder id: 1D0YDUb5ylbTeXxDrd13osQYSGIlXYDuK)
+0057.236 (0) Googledrive chunked upload: 100 % uploaded
+0057.242 (0) Google Drive: OK: Archive backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db.gz uploaded in 1.44 seconds
+0057.243 (0) Recording as successfully uploaded: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db.gz
+0057.247 (0) Deleting local file: backup_2019-09-03-2351_Eurypaa_2019_ac7ea3c183f7-db.gz: OK
+0057.250 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0057.252 (0) Number of backup sets in history: 4; groups (db): 1
+0057.253 (0) Examining (for databases) backup set with group_id=0, nonce=ac7ea3c183f7, datestamp=1567554702 (Sep 03 2019 23:51:42)
+0057.254 (0) This backup set is the backup set just made, so will not be deleted.
+0057.254 (0) Examining (for databases) backup set with group_id=0, nonce=21fa59830df8, datestamp=1563305941 (Jul 16 2019 19:39:01)
+0057.254 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0057.255 (0) Examining (for databases) backup set with group_id=0, nonce=660de34fd7a9, datestamp=1558433315 (May 21 2019 10:08:35)
+0057.255 (0) 1558433315: db: this set includes a database (backup_2019-05-21-1008_Eurypaa_2019_660de34fd7a9-db.gz); db count is now 2
+0057.255 (0) 1558433315: db: over retain limit (2); will delete this database
+0057.255 (0) Delete file: backup_2019-05-21-1008_Eurypaa_2019_660de34fd7a9-db.gz, service=googledrive
+0058.225 (0) Google Drive: backup_2019-05-21-1008_Eurypaa_2019_660de34fd7a9-db.gz: Deletion successful
+0058.229 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0058.231 (0) Examining (for databases) backup set with group_id=0, nonce=be38db19eaed, datestamp=1552859992 (Mar 17 2019 21:59:52)
+0058.231 (0) This backup set (1552859992) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0058.231 (0) Number of backup sets in history: 4; groups (files): 1
+0058.232 (0) Examining (for files) backup set with nonce=ac7ea3c183f7, datestamp=1567554702 (Sep 03 2019 23:51:42)
+0058.232 (0) This backup set is the backup set just made, so will not be deleted.
+0058.233 (0) This backup set is the backup set just made, so will not be deleted.
+0058.233 (0) This backup set is the backup set just made, so will not be deleted.
+0058.234 (0) This backup set is the backup set just made, so will not be deleted.
+0058.234 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0058.235 (0) Examining (for files) backup set with nonce=21fa59830df8, datestamp=1563305941 (Jul 16 2019 19:39:01)
+0058.235 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0058.236 (0) Examining (for files) backup set with nonce=660de34fd7a9, datestamp=1558433315 (May 21 2019 10:08:35)
+0058.236 (0) plugins: over retain limit (2); will delete this file entity
+0058.236 (0) themes: over retain limit (2); will delete this file entity
+0058.236 (0) uploads: over retain limit (2); will delete this file entity
+0058.236 (0) others: over retain limit (2); will delete this file entity
+0058.236 (0) Delete file: backup_2019-05-21-1008_Eurypaa_2019_660de34fd7a9-plugins.zip, service=googledrive
+0058.237 (0) Delete file: backup_2019-05-21-1008_Eurypaa_2019_660de34fd7a9-themes.zip, service=googledrive
+0058.239 (0) Delete file: backup_2019-05-21-1008_Eurypaa_2019_660de34fd7a9-uploads.zip, service=googledrive
+0058.240 (0) Delete file: backup_2019-05-21-1008_Eurypaa_2019_660de34fd7a9-others.zip, service=googledrive
+0059.180 (0) Google Drive: backup_2019-05-21-1008_Eurypaa_2019_660de34fd7a9-others.zip: Deletion successful
+0059.583 (0) Google Drive: backup_2019-05-21-1008_Eurypaa_2019_660de34fd7a9-uploads.zip: Deletion successful
+0059.961 (0) Google Drive: backup_2019-05-21-1008_Eurypaa_2019_660de34fd7a9-themes.zip: Deletion successful
+0060.361 (0) Google Drive: backup_2019-05-21-1008_Eurypaa_2019_660de34fd7a9-plugins.zip: Deletion successful
+0060.365 (0) This backup set is now empty; will remove from history
+0060.366 (0) Corresponding log file (log.660de34fd7a9.txt) not found - must have already been deleted
+0060.367 (0) Examining (for files) backup set with nonce=be38db19eaed, datestamp=1552859992 (Mar 17 2019 21:59:52)
+0060.367 (0) This backup set (1552859992) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0060.367 (0) This backup set (1552859992) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0060.367 (0) This backup set (1552859992) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0060.367 (0) This backup set (1552859992) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0060.367 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0060.369 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0060.374 (0) Resume backup (ac7ea3c183f7, 0): finish run
+0060.376 (0) Decremented the semaphore (fd) by 1
+0060.378 (0) Semaphore (fd) unlocked
+0060.379 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0060.383 (0) No email will/can be sent - the user has not configured an email address.
+0060.385 (0) The backup apparently succeeded and is now complete

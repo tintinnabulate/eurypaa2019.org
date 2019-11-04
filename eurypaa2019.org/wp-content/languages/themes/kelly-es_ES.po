@@ -1,0 +1,270 @@
+# Translation of Themes - Kelly in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Kelly package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-01-19 19:23:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Kelly\n"
+
+#. Description of the plugin/theme
+msgid "A clean and simple responsive blogging theme with lots of room for your photos."
+msgstr "Un tema de blogging limpio y sencillo con mucho espacio para tus fotos."
+
+#. Theme Name of the plugin/theme
+msgid "Kelly"
+msgstr "Kelly"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:51 content.php:60
+msgid "Tagged"
+msgstr "Etiquetado"
+
+#: searchform.php:13
+msgctxt "submit button"
+msgid "Search"
+msgstr "Buscar"
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Buscar &hellip;"
+
+#: searchform.php:10
+msgctxt "label"
+msgid "Search for:"
+msgstr "Buscar:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda para: %s"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no encontramos lo que estás intentando localizar. Es posible que te ayude buscarlo."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo siento pero no hay nada que se ajuste a tus criterios de búsqueda. Por favor, inténtalo de nuevo con palabras claves distintas."
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: inc/template-tags.php:102
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">Publicada en %1$s</span><span class=\"byline\"> por %2$s</span>"
+
+#: inc/template-tags.php:89
+msgid "All %s posts"
+msgstr "Las %s entradas"
+
+#: inc/template-tags.php:86
+msgid "<span class=\"entry-format\">%1$s</span> <span class=\"posted-on\">posted on %2$s</span><span class=\"byline\"> by %3$s</span>"
+msgstr "<span class=\"entry-format\">%1$s</span> <span class=\"posted-on\">publicado el %2$s</span><span class=\"byline\"> por %3$s</span>"
+
+#: inc/template-tags.php:79
+msgid "<span class=\"posted-on\">Featured</span><span class=\"byline\"> by %1$s</span>"
+msgstr "<span class=\"posted-on\">Destacado</span><span class=\"byline\"> por %1$s</span>"
+
+#: inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Entradas más nuevas <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Entradas más antiguas"
+
+#: inc/template-tags.php:39
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:38
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Navegación de entradas"
+
+#: inc/extras.php:55
+msgid "Page %s"
+msgstr "Página %s"
+
+#: header.php:37
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: header.php:36
+msgid "Menu"
+msgstr "Menú"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Leckerli One, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:158
+msgctxt "Leckerli One font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:152
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "activada"
+
+#: functions.php:103
+msgid "Footer Sidebar 3"
+msgstr "Barra Inferior 3"
+
+#: functions.php:95
+msgid "Footer Sidebar 2"
+msgstr "Barra Inferior 2"
+
+#: functions.php:87
+msgid "Footer Sidebar 1"
+msgstr "Barra Inferior 1"
+
+#: functions.php:55
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: footer.php:18
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s por %2$s."
+
+#: footer.php:16
+msgid "Proudly powered by %s"
+msgstr "Creado con %s"
+
+#: content.php:64
+msgid "% Comments"
+msgstr "% comentarios"
+
+#: content.php:64
+msgid "1 Comment"
+msgstr "1 comentario"
+
+#: content.php:64
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#: content.php:36
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Sigue leyendo <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-single.php:45 content.php:54
+msgid "Posted in %1$s"
+msgstr "Publicada en %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:41 content-single.php:51 content.php:50 content.php:60
+msgid ", "
+msgstr ", "
+
+#: content-page.php:23 content-single.php:53 content.php:67
+msgid "Edit"
+msgstr "Editar"
+
+#: content-page.php:18 content-single.php:32 content.php:39
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "Comentarios más recientes &rarr;"
+
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios más antiguos"
+
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un comentario en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
+
+#: archive.php:57
+msgid "Archives"
+msgstr "Archivo"
+
+#: archive.php:54
+msgid "Galleries"
+msgstr "Galerías"
+
+#: archive.php:51
+msgid "Links"
+msgstr "Enlaces"
+
+#: archive.php:48
+msgid "Quotes"
+msgstr "Citas"
+
+#: archive.php:45
+msgid "Videos"
+msgstr "Vídeos"
+
+#: archive.php:42
+msgid "Images"
+msgstr "Imágenes"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "Minientradas"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "Año: %s"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Mes: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "Día: %s"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Parece que no hay nada en este lugar. ¿Y si pruebas una búsqueda?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! Está página no se encuentra."
+
+#. Author URI of the plugin/theme
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.com/themes/kelly/"
+msgstr "https://wordpress.com/themes/kelly/"
